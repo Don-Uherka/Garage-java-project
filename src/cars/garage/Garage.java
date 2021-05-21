@@ -25,9 +25,9 @@ public class Garage{
 		contents.removeAll(contents);
 	}
 	
-	public void seeVehicles(contents) {
-		for (Vehicle : contents) {
-			System.out.println(Vehicle);
+	public void seeVehicles() {
+		for (Vehicle i : contents) {
+			System.out.println(i);
 		}
 	}
 
