@@ -16,5 +16,13 @@ public class Garage{
 	public void addVehicles(Vehicle input) {
 		contents.add(input);
 	}
+	
+	public void removeVehicles(Vehicle input) {
+		contents.remove(input);
+	}
+	
+	public void removeAllVehicles() {
+		contents.removeAll(contents);
+	}
 
 }

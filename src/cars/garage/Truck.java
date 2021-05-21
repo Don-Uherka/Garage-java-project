@@ -2,13 +2,13 @@ package cars.garage;
 
 public class Truck extends Vehicle{
 	//Attributes
-	public int Weight;
+	public int weight;
 	public int bedLength;
 	
 	//Constructor
 	public Truck(String model, String year, boolean isOn, int weight, int bedLength, int licensePlate) {
 		super(model, year, isOn, licensePlate);
-		this.Weight = weight;
+		this.weight = weight;
 		this.bedLength = bedLength;
 	}
 	
@@ -23,6 +23,17 @@ public class Truck extends Vehicle{
 	
 	public int getBedLength() {
 		return bedLength;
+	}
+
+	@Override
+	public String toString() {
+		String t = "CAR INSTANCE DETAILS: \n";
+		t += "TRUCK MODEL       : " + this.model + "\n";
+		t += "YEAR              : " + this.year + "\n";
+		t += "WEIGHT            : " + this.weight + "\n";
+		t += "BED LENGTH        : " + this.bedLength + "\n";
+		t += "LECENSE PLATE     : " + this.licensePlate + "\n";
+		return t;
 	}
 	
 	

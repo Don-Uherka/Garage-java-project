@@ -36,13 +36,20 @@ public class Motorcycle extends Vehicle {
 	@Override
 	public String toString() {
 		String c = "CAR INSTANCE DETAILS: \n";
-		c += "CAR MODEL      : " + this.model + "\n";
-		c += "YEAR           : " + this.year + "\n";
-		c += "NUMBER OF DOORS: " + this.numOfDoors + "\n";
+		c += "MOTORCYCLE MODEL  : " + this.model + "\n";
+		c += "YEAR              : " + this.year + "\n";
+		c += "NUMBER OF WHEELS  : " + this.numOfWheels + "\n";
+		c += "LICENSE PLATE     : " + this.licensePlate + "\n";
 		return c;
 	}
+	
+	
+	
+	
+	
+	
 	}
 	
 	
 
-}
+
