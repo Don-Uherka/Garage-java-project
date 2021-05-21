@@ -33,4 +33,16 @@ public class Motorcycle extends Vehicle {
 		return numOfWheels;
 	}
 
+	@Override
+	public String toString() {
+		String c = "CAR INSTANCE DETAILS: \n";
+		c += "CAR MODEL      : " + this.model + "\n";
+		c += "YEAR           : " + this.year + "\n";
+		c += "NUMBER OF DOORS: " + this.numOfDoors + "\n";
+		return c;
+	}
+	}
+	
+	
+
 }

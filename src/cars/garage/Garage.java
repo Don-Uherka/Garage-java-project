@@ -1,10 +1,11 @@
 package cars.garage;
 
-
+import java.util.ArrayList;
+import java.util.List;
 
 public class Garage{
 	//Attributes
-	
+	List<Vehicle> contents = new ArrayList<>();  
 	
 	
 	
@@ -12,5 +13,8 @@ public class Garage{
 	
 	
 	//Methods
+	public void addVehicles(Vehicle input) {
+		contents.add(input);
+	}
 
 }

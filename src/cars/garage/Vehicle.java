@@ -1,8 +1,8 @@
 package cars.garage;
 
-public class Vehicle extends Garage {
+public class Vehicle{
 	//Attributes
-	private String model;
+	protected String model;
 	protected String year;
 	public boolean isON;
 	
