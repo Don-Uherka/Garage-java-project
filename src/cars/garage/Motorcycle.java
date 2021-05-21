@@ -7,8 +7,8 @@ public class Motorcycle extends Vehicle {
 	
 	
 	//Constructor
-	public Motorcycle(String model, String year, boolean isOn, int power, int numOfWheels) {
-		super(model, year, isOn);
+	public Motorcycle(String model, String year, boolean isOn, int power, int numOfWheels, int licensePlate) {
+		super(model, year, isOn, licensePlate);
 		this.numOfWheels = numOfWheels;
 		
 	}

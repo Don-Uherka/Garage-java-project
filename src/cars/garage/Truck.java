@@ -6,8 +6,8 @@ public class Truck extends Vehicle{
 	public int bedLength;
 	
 	//Constructor
-	public Truck(String model, String year, boolean isOn, int weight, int bedLength) {
-		super(model, year, isOn);
+	public Truck(String model, String year, boolean isOn, int weight, int bedLength, int licensePlate) {
+		super(model, year, isOn, licensePlate);
 		this.Weight = weight;
 		this.bedLength = bedLength;
 	}

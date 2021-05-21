@@ -5,11 +5,12 @@ public class Vehicle{
 	protected String model;
 	protected String year;
 	public boolean isON;
+	protected int licensePlate;
 	
 	
 	
 	//Constructor
-	public Vehicle(String model, String year, boolean isOn) {
+	public Vehicle(String model, String year, boolean isOn, int licensePlate) {
 		this.model = model;
 		this.year = year;
 		this.isON = isOn;
@@ -33,6 +34,10 @@ public class Vehicle{
 	
 	public String getYear() {
 		return year;
+	}
+	
+	public int getLicensePlate() {
+		return licensePlate;
 	}
 
 }

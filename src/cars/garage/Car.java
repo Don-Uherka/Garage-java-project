@@ -8,8 +8,8 @@ public class Car extends Vehicle {
 	
 	
     //Constructor
-	public Car(String model, String year, boolean isOn, int numOfDoors) {
-		super(model, year, isOn);
+	public Car(String model, String year, boolean isOn, int numOfDoors, int licensePlate) {
+		super(model, year, isOn, licensePlate);
 		this.numOfDoors = numOfDoors;
 		
 		
